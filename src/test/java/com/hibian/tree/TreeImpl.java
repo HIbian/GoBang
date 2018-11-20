@@ -20,6 +20,22 @@ public class TreeImpl implements Tree {
         }
         return null;
     }
+    public Node findparent(Integer key){
+        Node next= root;
+        Node parent = null;
+        while (next!=null){
+            if (next.getData()>key){//搜索值小于根节点,去左节点找
+                parent = next;//当前为父节点
+                next = next.getLeftNode();
+            }else if (next.getData()<key){
+                parent = next;//当前为父节点
+                next = next.getRightNode();
+            }else{//找到值了,返回父节点
+                return parent;
+            }
+        }
+        return null;
+    }
 
     public boolean insert(Integer key) {
         Node newNode = new Node(key);//创建新的节点
@@ -74,8 +90,90 @@ public class TreeImpl implements Tree {
         }
     }
 
+    //查找最大最小值
+    public Integer getMax(){
+        if (root==null){
+            return null;
+        }
+        Node current = root;
+        while (current.getRightNode()!=null){
+            current = current.getRightNode();
+        }
+        return current.getData();
+    }
+    public Integer getMin(){
+        if (root==null){
+            return null;
+        }
+        Node current = root;
+        while (current.getLeftNode()!=null){
+            current = current.getLeftNode();
+        }
+        return current.getData();
+    }
 
+    //删除
     public boolean delete(Integer key) {
+        if (root==null){
+            return false;
+        }
+        //找到该节点,以及父节点
+        Node target = find(key);
+        Node parent = findparent(key);//为空的话表示该节点为根节点
+        if (target==null){        //判断是否为空
+            return false;
+        }
+
+        //判断类型
+        int count = 0;
+        if (target.getLeftNode()!=null){
+            count++;
+        }
+        if (target.getRightNode()!=null){
+            count++;
+        }
+
+        if (count==0){//1.目标没有子节点,父节点将其置为空
+            //若是根节点只需要置为空即可
+            if (parent==null){
+                root=null;
+                return true;
+            }
+            if (parent.getLeftNode().getData().equals(key)){
+                parent.setLeftNode(null);
+            }else{
+                parent.setRightNode(null);
+            }
+            return true;
+        }else if (count==1){//2.目标有一个子节点
+            Node targetChild = target.getLeftNode()==null?target.getRightNode():target.getLeftNode();//获取目标节点子节点
+            //接到目标父节点的子节点上
+            if (parent.getLeftNode().getData().equals(key)){
+                parent.setLeftNode(targetChild);
+            }else{
+                parent.setRightNode(targetChild);
+            }
+            return true;
+        }else{//目标有两个子节点
+            //获取后继节点
+        }
+
         return false;
+    }
+    public Node getNextValue(Node target){//获取中序遍历后继节点
+        if (target == null) {//输入值为空
+            return null;
+        }
+        if (target.getRightNode()==null){//没有右子叶,那么就没有中序后继节点
+            return null;
+        }
+        Node nextValue = target.getRightNode();//目标的右节点
+        while (nextValue!=null){//循环条件其实没啥用
+            if (nextValue.getLeftNode()==null){//当前节点左子叶为空,则为后继节点
+                return nextValue;
+            }
+            nextValue = nextValue.getLeftNode();//获取当前节点左子叶
+        }
+        return null;
     }
 }

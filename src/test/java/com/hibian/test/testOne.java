@@ -8,6 +8,8 @@ import com.hibian.tree.Tree;
 import com.hibian.tree.TreeImpl;
 import org.junit.Test;
 
+import java.util.Random;
+
 public class testOne {
     @Test
     public void test1(){
@@ -53,5 +55,62 @@ public class testOne {
         t3.preOrder(t3.getRoot());
         System.out.println("\n---------------------------");
         t3.postOrder(t3.getRoot());
+    }
+    @Test
+    public void test4(){
+        TreeImpl t3 = new TreeImpl();
+        Random random = new Random();
+        for (int i = 0; i < 1000; i++) {
+            t3.insert(random.nextInt(10000));
+        }
+        t3.infixOrder(t3.getRoot());
+        System.out.println("\n-----------------------");
+        t3.preOrder(t3.getRoot());
+        System.out.println("\n-----------------------");
+        t3.postOrder(t3.getRoot());
+        System.out.println("\n-----------------------");
+        System.out.println("Min="+t3.getMin());
+        System.out.println("Max="+t3.getMax());
+    }
+
+    @Test
+    public void findparentTest(){
+        TreeImpl t3 = new TreeImpl();
+        t3.insert(5);
+        t3.insert(2);
+        t3.insert(7);
+        t3.insert(3);
+        t3.infixOrder(t3.getRoot());
+        System.out.println("\n-----------------------");
+        Node findparent = t3.findparent(2);
+        System.out.println(findparent.getData());
+        Node findparent1 = t3.findparent(7);
+        System.out.println(findparent1.getData());
+        Node findparent2 = t3.findparent(3);
+        System.out.println(findparent2.getData());
+    }
+    @Test
+    public void delTest1(){
+        TreeImpl t3 = new TreeImpl();
+        t3.insert(5);
+        t3.insert(2);
+        t3.insert(7);
+        t3.insert(3);
+        t3.infixOrder(t3.getRoot());
+        System.out.println("\n-----------------------");
+        t3.delete(7);
+        t3.infixOrder(t3.getRoot());
+    }
+    @Test
+    public void delTest2(){
+        TreeImpl t3 = new TreeImpl();
+        t3.insert(5);
+        t3.insert(2);
+        t3.insert(7);
+        t3.insert(3);
+        t3.infixOrder(t3.getRoot());
+        System.out.println("\n-----------------------");
+        t3.delete(2);
+        t3.infixOrder(t3.getRoot());
     }
 }

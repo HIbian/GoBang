@@ -19,18 +19,20 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="16" />
+          <entry key="java___jb_old___" value="1" />
           <entry key="md" value="10" />
         </counts>
       </usages-collector>
@@ -39,18 +41,19 @@
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="16" />
           <entry key="Markdown" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4327" />
+          <entry key="java" value="5929" />
           <entry key="md" value="183" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4327" />
+          <entry key="JAVA" value="5929" />
           <entry key="Markdown" value="183" />
           <entry key="XML" value="5" />
         </counts>
@@ -73,20 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="130">
+              <caret line="164" column="24" lean-forward="true" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/test/testOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="292">
+              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/hibian/tree/Tree.java" />
         <option value="$PROJECT_DIR$/notes/树.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/hibian/tree/Node.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hibian/test/testOne.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java" />
       </list>
     </option>
   </component>
@@ -148,7 +151,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="220" />
     <option name="y" value="215" />
     <option name="width" value="1365" />
@@ -233,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542632250756" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542718724725" />
     <property name="last_opened_file_path" value="E:/Software/Git/git-cmd.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -254,34 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testOne.test3">
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibian.test.Tree" />
-      <module name="Gobang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibian.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="playGobang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibian.Main.playGobang" />
-      <module name="Gobang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibian.Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testOne.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.testOne.delTest2">
+    <configuration name="testOne.delTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gobang" />
       <extension name="coverage">
         <pattern>
@@ -291,13 +268,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hibian.test" />
       <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="delTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testOne.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testOne.delTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gobang" />
       <extension name="coverage">
         <pattern>
@@ -307,7 +284,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hibian.test" />
       <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="delTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testOne.findparentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gobang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hibian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
+      <option name="METHOD_NAME" value="findparentTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -329,20 +322,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testOne.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gobang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hibian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.testOne.test1" />
-      <item itemvalue="Application.playGobang" />
-      <item itemvalue="JUnit.testOne.test2" />
-      <item itemvalue="Application.Tree" />
       <item itemvalue="JUnit.testOne.test3" />
+      <item itemvalue="JUnit.testOne.test4" />
+      <item itemvalue="JUnit.testOne.findparentTest" />
+      <item itemvalue="JUnit.testOne.delTest1" />
+      <item itemvalue="JUnit.testOne.delTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testOne.delTest2" />
+        <item itemvalue="JUnit.testOne.delTest1" />
+        <item itemvalue="JUnit.testOne.findparentTest" />
+        <item itemvalue="JUnit.testOne.test4" />
         <item itemvalue="JUnit.testOne.test3" />
-        <item itemvalue="JUnit.testOne.test2" />
-        <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.playGobang" />
-        <item itemvalue="JUnit.testOne.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -365,31 +374,11 @@
       <workItem from="1542600393671" duration="6175000" />
       <workItem from="1542627933932" duration="2845000" />
       <workItem from="1542677432824" duration="1556000" />
+      <workItem from="1542711394704" duration="6004000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 46m 03s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 46m 42s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 47m 05s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 47m 53s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 48m 40s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 48m 44s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testOne_test2 - 2018.11.19 at 19h 50m 36s.xml">
-      <configuration name="testOne.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testOne_test3 - 2018.11.19 at 20h 55m 47s.xml">
       <configuration name="testOne.test3" configurationId="JUnit" />
     </history-entry>
@@ -399,15 +388,36 @@
     <history-entry file="testOne_test3 - 2018.11.19 at 20h 56m 46s.xml">
       <configuration name="testOne.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testOne_test4 - 2018.11.20 at 19h 02m 07s.xml">
+      <configuration name="testOne.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testOne_test4 - 2018.11.20 at 19h 03m 43s.xml">
+      <configuration name="testOne.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testOne_test4 - 2018.11.20 at 19h 15m 00s.xml">
+      <configuration name="testOne.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testOne_findparentTest - 2018.11.20 at 19h 40m 56s.xml">
+      <configuration name="testOne.findparentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testOne_findparentTest - 2018.11.20 at 19h 41m 58s.xml">
+      <configuration name="testOne.findparentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testOne_delTest1 - 2018.11.20 at 19h 47m 01s.xml">
+      <configuration name="testOne.delTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testOne_delTest2 - 2018.11.20 at 20h 14m 01s.xml">
+      <configuration name="testOne.delTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34655000" />
+    <option name="totallyTimeSpent" value="40659000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17426273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17627347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.22788204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.22788204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28150135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,6 +513,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes/树.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="989">
+            <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -515,30 +535,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java___jb_old___">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/树.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="989">
-            <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="-1034">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/test/testOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="292">
+          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="164" column="24" lean-forward="true" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
         </state>
       </provider>
     </entry>
