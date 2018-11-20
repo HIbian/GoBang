@@ -3,7 +3,6 @@ package com.hibian.test;
 import com.hibian.Bean.Checkerboard;
 import com.hibian.Bean.Color;
 import com.hibian.Bean.Piece;
-import com.hibian.Main.playGobang;
 import com.hibian.tree.Node;
 import com.hibian.tree.Tree;
 import com.hibian.tree.TreeImpl;
