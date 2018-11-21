@@ -14,18 +14,18 @@
     <session id="-626282787">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,14 +46,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5929" />
+          <entry key="java" value="6724" />
           <entry key="md" value="183" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5929" />
+          <entry key="JAVA" value="6724" />
           <entry key="Markdown" value="183" />
           <entry key="XML" value="5" />
         </counts>
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="308">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="164" column="24" lean-forward="true" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
+            <state relative-caret-position="175">
+              <caret line="173" column="53" lean-forward="true" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/test/testOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,12 +229,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542718724725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542805185110" />
     <property name="last_opened_file_path" value="E:/Software/Git/git-cmd.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -257,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testOne.delTest2">
+  <component name="RunManager" selected="JUnit.testOne.delTest3">
     <configuration name="testOne.delTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gobang" />
       <extension name="coverage">
@@ -290,6 +290,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testOne.delTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gobang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hibian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
+      <option name="METHOD_NAME" value="delTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testOne.findparentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gobang" />
       <extension name="coverage">
@@ -306,7 +322,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testOne.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testOne.getNextValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gobang" />
       <extension name="coverage">
         <pattern>
@@ -316,42 +332,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hibian.test" />
       <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testOne.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Gobang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibian.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hibian.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hibian.test.testOne" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="METHOD_NAME" value="getNextValueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.testOne.test3" />
-      <item itemvalue="JUnit.testOne.test4" />
       <item itemvalue="JUnit.testOne.findparentTest" />
       <item itemvalue="JUnit.testOne.delTest1" />
       <item itemvalue="JUnit.testOne.delTest2" />
+      <item itemvalue="JUnit.testOne.getNextValueTest" />
+      <item itemvalue="JUnit.testOne.delTest3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testOne.delTest3" />
+        <item itemvalue="JUnit.testOne.getNextValueTest" />
         <item itemvalue="JUnit.testOne.delTest2" />
         <item itemvalue="JUnit.testOne.delTest1" />
         <item itemvalue="JUnit.testOne.findparentTest" />
-        <item itemvalue="JUnit.testOne.test4" />
-        <item itemvalue="JUnit.testOne.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -374,50 +374,51 @@
       <workItem from="1542600393671" duration="6175000" />
       <workItem from="1542627933932" duration="2845000" />
       <workItem from="1542677432824" duration="1556000" />
-      <workItem from="1542711394704" duration="6004000" />
+      <workItem from="1542711394704" duration="6032000" />
+      <workItem from="1542798628278" duration="5941000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testOne_test3 - 2018.11.19 at 20h 55m 47s.xml">
-      <configuration name="testOne.test3" configurationId="JUnit" />
+    <history-entry file="testOne_getNextValueTest - 2018.11.21 at 19h 55m 59s.xml">
+      <configuration name="testOne.getNextValueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_test3 - 2018.11.19 at 20h 56m 32s.xml">
-      <configuration name="testOne.test3" configurationId="JUnit" />
+    <history-entry file="testOne_getNextValueTest - 2018.11.21 at 19h 56m 10s.xml">
+      <configuration name="testOne.getNextValueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_test3 - 2018.11.19 at 20h 56m 46s.xml">
-      <configuration name="testOne.test3" configurationId="JUnit" />
+    <history-entry file="testOne_getNextValueTest - 2018.11.21 at 19h 56m 24s.xml">
+      <configuration name="testOne.getNextValueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_test4 - 2018.11.20 at 19h 02m 07s.xml">
-      <configuration name="testOne.test4" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 25m 24s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_test4 - 2018.11.20 at 19h 03m 43s.xml">
-      <configuration name="testOne.test4" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 25m 41s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_test4 - 2018.11.20 at 19h 15m 00s.xml">
-      <configuration name="testOne.test4" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 35m 09s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_findparentTest - 2018.11.20 at 19h 40m 56s.xml">
-      <configuration name="testOne.findparentTest" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 36m 22s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_findparentTest - 2018.11.20 at 19h 41m 58s.xml">
-      <configuration name="testOne.findparentTest" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 36m 49s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_delTest1 - 2018.11.20 at 19h 47m 01s.xml">
-      <configuration name="testOne.delTest1" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 40m 12s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testOne_delTest2 - 2018.11.20 at 20h 14m 01s.xml">
-      <configuration name="testOne.delTest2" configurationId="JUnit" />
+    <history-entry file="testOne_delTest3 - 2018.11.21 at 20h 41m 01s.xml">
+      <configuration name="testOne.delTest3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40659000" />
+    <option name="totallyTimeSpent" value="46628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17627347" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,7 +427,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.22788204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.22788204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28150135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,10 +524,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java___jb_old___" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="308">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="e#214#215#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
@@ -535,17 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java___jb_old___">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/test/testOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -554,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hibian/tree/TreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="164" column="24" lean-forward="true" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
+        <state relative-caret-position="175">
+          <caret line="173" column="53" lean-forward="true" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
         </state>
       </provider>
     </entry>

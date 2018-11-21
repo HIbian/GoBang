@@ -113,4 +113,41 @@ public class testOne {
         t3.delete(2);
         t3.infixOrder(t3.getRoot());
     }
+    @Test
+    public void getNextValueTest(){
+        TreeImpl t3 = new TreeImpl();
+        t3.insert(5);
+        t3.insert(2);
+        t3.insert(7);
+        t3.insert(3);
+        t3.insert(6);
+        t3.insert(20);
+        t3.insert(15);
+        t3.insert(19);
+        t3.insert(22);
+        t3.insert(23);
+        Node node7 = t3.find(7);
+        Node nextValue = t3.getNextValue(node7);
+        System.out.println(nextValue.getData());
+    }
+    @Test
+    public void delTest3(){
+        TreeImpl t3 = new TreeImpl();
+        t3.insert(5);
+        t3.insert(2);
+        t3.insert(7);
+        t3.insert(3);
+        t3.insert(6);
+        t3.insert(20);
+        t3.insert(15);
+        t3.insert(19);
+        t3.insert(22);
+        t3.insert(23);
+        t3.infixOrder(t3.getRoot());
+        System.out.println("\n---------------------");
+//        t3.delete(7);
+//        t3.delete(20);
+        t3.delete(5);
+        t3.infixOrder(t3.getRoot());
+    }
 }
