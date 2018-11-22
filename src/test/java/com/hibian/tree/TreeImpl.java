@@ -162,16 +162,40 @@ public class TreeImpl implements Tree {
             //获取后继节点
             Node nextValue = getNextValue(target);
             if (target.getRightNode().getData().equals(nextValue.getData())) {//后继节点为目标节点右子节点
-                if (parent!=null){//判断不为根节点
+                if (parent!=null) {//判断不为根节点
+                    //判断目标节点为父节点的左子叶还是右子叶
+                    if (parent.getRightNode().equals(target)) {
+                        parent.setRightNode(nextValue);
+                    } else {
+                        parent.setLeftNode(nextValue);
+                    }
+                }else{
+                    root = nextValue;
+                }
+                //目标节点左子叶嫁接到后继节点左子叶
+                nextValue.setLeftNode(target.getLeftNode());
+            }else if (nextValue.getRightNode()==null&&nextValue.getLeftNode()==null){//后继节点为叶节点
+
+                Node nextValueParent = findparent(nextValue.getData());//后继节点父节点
+                nextValueParent.setLeftNode(null);//肯定为左节点,将父节点左节点置为空
+
+                if (parent!=null) {//不为根节点
                     //判断目标节点为父节点的左子叶还是右子叶
                     if (parent.getRightNode().equals(target)){
                         parent.setRightNode(nextValue);
                     }else{
                         parent.setLeftNode(nextValue);
                     }
-                //目标节点左子叶嫁接到后继节点左子叶
+                }else{//根节点
+                    root = nextValue;
+                }
+
+                //集成删除节点的节点关系
                 nextValue.setLeftNode(target.getLeftNode());
-            }else if (nextValue.getRightNode()==null&&nextValue.getLeftNode()==null){//后继节点为叶节点
+                nextValue.setRightNode(target.getRightNode());
+            }else{//后继节点有右子叶,且不为目标节点的右节点
+                //删除后继节点,必须得先删,从下到上
+                delete(nextValue.getData());
                 if (parent!=null) {//判断不为根节点
                     //判断目标节点为父节点的左子叶还是右子叶
                     if (parent.getRightNode().equals(target)){
@@ -179,29 +203,15 @@ public class TreeImpl implements Tree {
                     }else{
                         parent.setLeftNode(nextValue);
                     }
-                }
-                Node nextValueParent = findparent(nextValue.getData());//后继节点父节点
-                nextValueParent.setLeftNode(null);//肯定为左节点,将父节点左节点置为空
-                //集成删除节点的节点关系
-                nextValue.setLeftNode(target.getLeftNode());
-                nextValue.setRightNode(target.getRightNode());
-            }else{//后继节点有右子叶,且不为目标节点的右节点
-                //删除后继节点,必须得先删,从下到上
-                delete(nextValue.getData());
-                //判断目标节点为父节点的左子叶还是右子叶
-                if (parent.getRightNode().equals(target)){
-                    parent.setRightNode(nextValue);
                 }else{
-                    parent.setLeftNode(nextValue);
+                    root = nextValue;
                 }
                 //更改依赖关系
                 nextValue.setLeftNode(target.getLeftNode());
                 nextValue.setRightNode(target.getRightNode());
             }
-
+            return true;
         }
-
-        return false;
     }
     public Node getNextValue(Node target){//获取中序遍历后继节点
         if (target == null) {//输入值为空

@@ -145,8 +145,8 @@ public class testOne {
         t3.insert(23);
         t3.infixOrder(t3.getRoot());
         System.out.println("\n---------------------");
-//        t3.delete(7);
-//        t3.delete(20);
+        t3.delete(7);
+        t3.delete(20);
         t3.delete(5);
         t3.infixOrder(t3.getRoot());
     }
